@@ -55,9 +55,9 @@ line-height: 1.6;
     width: 90px;
     display: flex;
 }
-/* .deliverto{
-    margin-top:8px;
-} */
+.deliver div:hover{
+    cursor: pointer;
+}
 .icon-location{
         background: url('/images/sprite.png') no-repeat -71px -379px;
         width: 15px;
@@ -66,6 +66,9 @@ line-height: 1.6;
         margin-right: 4px;
         /* display: inline; */
     
+}
+.icon-location:hover{
+    cursor: pointer;
 }
 .thirditem{
     width:990px;
@@ -93,26 +96,28 @@ line-height: 1.6;
 
  .search3{
    
- background-color: orange;
+ /* background-color: ; */
   /* width: 50px;
  height: 40px; */
-  background: url('./images/search.png') no-repeat -196px -38px;
+  background:orange url('./images/search.png') no-repeat -196px -38px;
   z-index: 999;
-  width: 25px;
+  width: 28px;
   height: 40px;
   font-size: 20px;
   text-align:center;
-  line-height: 1.2;
-  margin-top: 20px;
+  line-height: 0.5;
+  margin-top: 10px;
   position: absolute;
   margin-left: 5px;
   
   
 }
+.search3:hover{
+    cursor: pointer;
+}
 .fouritem{
     width: 60px;
     height: 40px;
-    
     margin-top: 10px;
     display: flex;
 }
@@ -123,6 +128,9 @@ line-height: 1.6;
     background: url('./images/flag.png') no-repeat 0px -130px;
     margin-top: 10px;
     
+}
+.fouritem .flag:hover{
+    cursor: pointer;
 }
 .fouritem .arrow{
     width: 14px;
@@ -135,6 +143,9 @@ line-height: 1.6;
 .fifthitem .signin{
     font-size: 14px;
 }
+.fifthitem .signin:hover, .account:hover{
+    cursor: pointer;
+}
 .fifthitem .account{
     font-size: 16px;
     font-weight: bold;
@@ -146,6 +157,9 @@ line-height: 1.6;
 .sixitem .orders{
     font-size: 16px;
     font-weight: bold;
+}
+.sixitem .orders:hover, .return:hover{
+    cursor: pointer;
 }
 .seven{
     display: inline-block;
@@ -169,26 +183,31 @@ width: 41px;
     font-weight: bold;
     margin-top: 10px;
 }
-/* .seven2{
-    
-	
-} */
+.seven1:hover, .seven3:hover{
+    cursor: pointer;
+}
 
 
   ul{
       list-style: none;
+      
   }
   ul .menu{
         background: url('./images/sprite.png') no-repeat -172px -255px;
         width: 18px;
         height: 14px;
+        text-align: end;
+        position: relative;
+        top: 5px;
+        
     
   }
 
    a{
       /* color: white; */
       text-decoration: none;
-      padding: 0 8px;
+      padding: 0px 8px;
+     
   }
   .nav-bar{
       width: 100vw;
@@ -199,17 +218,17 @@ width: 41px;
       background-color: #232f3e;
       color: white;
       opacity: 1;
-      
       height: 45px;
       position: absolute;
       top: 60px;
   }
+  
 
 .nav-bar a{
     color:white;
     /* opacity: 0.7; */
     font-size: 14px;
-    padding: 0 20px;
+    padding: 5px 10px;
     border: 1px solid transparent;
     
 }
@@ -220,9 +239,9 @@ width: 41px;
 }
 .nav-bar ul{
     display: flex;
-    /* padding: 0 8px; */
+    padding: 0 8px;
     margin: 0 8px;
-    font-size: 17px;
+    font-size: 16px;
     color: #1D1D1F;
 
 
@@ -249,6 +268,9 @@ width: 41px;
     background-size: cover;
     background-position: center;
     display: flex;
+}
+.blackfridaynav{
+    padding-right: 12px;
 }
 /* .mini-nav p{
 color: var(--light-color);
@@ -284,7 +306,7 @@ text-align: center;
     gap: 1rem;
     margin:0px 1rem;
     height: 100vh;
-    /* position: relative; */
+    position: relative;
 }
 .gridchild{
     text-align: center;
@@ -334,15 +356,36 @@ text-align: center;
    .left2 img{
        width: 500px;
        object-fit: cover;
+       position: absolute;
+       right: 650px;
    }
 .left3{
     /* border: 1px solid red; */
     grid-column: 3/span 2;
     width: 500px;
     text-align: left;
+    position: absolute;
+    right: 100px;
 }
 .sect1{
     border-bottom: 1px solid grey;
+    padding: 0 0 8px;
+}
+.sect1 a{
+    color: #007185;
+}
+.sect1-header{
+    font-size: 24px;
+    color: #0f1111;
+    font-weight: bold;
+    margin-left: 3px;
+}
+.table{
+    padding: 4px 4px 8px;
+
+}
+.vote{
+    padding: 0 0 8px;
 }
 .about{
     border-top: 1px solid grey;
@@ -351,9 +394,23 @@ text-align: center;
 .leftmini3  .bullet{
 list-style: disc;
 }
+
+.no-fee{
+    color: #b12704;
+    font-size: 18px;
+}
+.main-star{
+    background: url('./images/search.png') no-repeat -175px -369px;
+    width: 79px;
+    height: 15px;
+    margin-left: 6px;
+}
  .choice button{
-    padding: 10px;
+    padding: 8px;
     text-decoration: none;
+ }
+ .choice input{
+     margin: 5px;
  }
 
  
@@ -366,6 +423,7 @@ list-style: disc;
   /* margin:auto; */
   border-radius: 8px;
   right: 300px;
+  height: 810px;
 }
 .grid2 .instock{
     color: #007185;
@@ -381,10 +439,13 @@ list-style: disc;
     background: orange;
 }
 .btn-inc input{
-    background: yellow;
+    background: #f7ca00;
 }
 .btn-dec, .btn-inc{
 margin: 8px 0px;
+}
+.btn-dec:hover, .btn-inc:hover{
+   cursor: pointer;
 }
 .colorgreen{
     color: #007185;
@@ -398,6 +459,30 @@ color: red;
 
 .greenspl{
     color: #007185;
+}
+.btn-add input{
+    width: 200px;
+    padding: 6px 16px;
+    margin: 8px 0px;
+}
+.btn-add input:hover{
+    cursor: pointer;
+}
+.outer{
+position: absolute;
+bottom: 40px;
+right: 160px;
+font-size: 12px;
+}
+.btn-sell input{
+    width: 105px;
+    padding: 6px 8px;
+    background-color: transparent;
+    color: #0f1111;
+    border-radius: 8px;
+}
+.btn-sell input:hover{
+    cursor: pointer;
 }
 
 .grid3{
@@ -431,7 +516,7 @@ color: red;
 }
 .boughttotal button{
     padding: 1px 6px;
-    background-color: rgb(222, 230, 113);
+    background-color: #f7ca00;
     border-radius: 8px;
 }
 .boughttotal button:hover{
@@ -459,6 +544,9 @@ color: red;
 }
 .crosella{
     width:90%;
+}
+.crosella h2{
+    margin-left: 185px;
 }
 .crosella-mini{
     width: 85%;
