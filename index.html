@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" media="screen and (max-width:768px)" href="mobile.css">
     <link rel="shortcut icon" href="https://www.amazon.com/favicon.ico">
+    
     <title>Amazon.com/Spalding-Zi-Indoor-Outdoor-Basketball-29-5</title>
 </head>
 <body>
@@ -374,34 +375,17 @@
                     
                     
                 </div>
+                <div class="carosel-action">
+                    <button id="carosel-button-prev" aria-label="prev slide"><</button>
+                    <button id="carosel-button-next" aria-label="next slide">></button>
+                </div>
         </div>
 
 
     </section> 
+
+
 </div>
-  <script>
-    //   let choice=document.querySelectorAll('.push')
-    //   choice.addEventListener('click', ()=>{
-    //       choice.style.background='black'
-    //   })
-
-
-      let count=document.querySelector('.count')
-      let inc= document.querySelector('.btn-inc')
-      const increment= ()=>{
-            count.textContent++
-        };
-        inc.addEventListener('click',increment) 
-        const dec= document.querySelector('.btn-dec').addEventListener('click', ()=>{
-            +count.textContent===0?
-            (count.textContent=0):
-            count.textContent--;   
-
-        })
-
-
-
-
-  </script>
+<script src="./index.js"></script>
 </body>
 </html>

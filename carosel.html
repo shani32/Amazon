@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .second-carosel{
+            overflow: hidden;
+            position: relative;
+            max-width: 1800px;
+            display: flex;
+        }
+        .carosel-item, .carosel-item-hidden{
+            display: none;
+        }
+        .carosel-item img{
+            max-width: 400px;
+            height: auto;
+            width: 100%;
+        }
+        .item-visible{
+            display: flex;
+        }
+        .carosel-action{
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            top: 50%;
+            transform: translateY(-50%);
+            
+            position: absolute;
+        }
+        .carosel-action button{
+            border-radius: 50px;
+            border: 0;
+            font-weight: bold;
+            width: 40px;
+            height: 40px;
+        }
+        .carosel-action button#carosel-button-next{
+            margin-right: 0px;
+        }
+        .carosel-action button#carosel-button-prev{
+            margin-left: 0px;
+        }
+       
+        
+
+        
+    </style>
+</head>
+<body>
+    <div class="second-carosel">
+        <div class="carosel-item item-visible">
+            <img src="./images/hover6.jpg" alt="">
+        </div>
+        <div class="carosel-item">
+            <img src="./images/small2.jpg" alt="">
+        </div>
+        <div class="carosel-item ">
+            <img src="./images/small3.jpg" alt="">
+        </div>
+        <div class="carosel-item">
+            <img src="./images/small2.jpg" alt="">
+        </div>
+        <div class="carosel-item">
+            <img src="./images/small4.jpg" alt="">
+        </div>
+        <div class="carosel-item">
+            <img src="./images/small4.jpg" alt="">
+            <div>
+            <p>Lorem ipsum dolor sit amet consectetur .</p>
+            <p>Lorem ipsum dolor sit amet consectetur .</p>
+            </div>
+            <div>ctydhghg</div>
+        </div>
+
+        <div class="carosel-action">
+            <button id="carosel-button-prev" aria-label="prev slide"><</button>
+            <button id="carosel-button-next" aria-label="next slide">></button>
+        </div>
+    </div>
+    <script>
+        
+        let slideposition=0;
+        const slides=document.getElementsByClassName('carosel-item')
+        const totalslides= slides.length;
+
+        document.getElementById('carosel-button-next').addEventListener('click', function(){
+            movetonext();
+        })
+
+        document.getElementById('carosel-button-prev').addEventListener("click", function(){
+           movetoprev();
+           
+        })
+
+        function updateslide(){
+            for(let slide of slides){
+               slide.classList.remove('item-visible')  
+               slide.classList.add('carosel-item-hidden')
+               
+            }
+            slides[slideposition].classList.add('item-visible');
+            
+            
+        }
+
+        function movetonext(){
+            if(slideposition===totalslides-1){
+                slideposition = 0
+            }else{
+                slideposition++;
+            }
+            updateslide()
+        }
+
+        function movetoprev(){
+            if(slideposition===0){
+                slideposition=0
+            }else{
+                slideposition--;
+            }
+            updateslide()
+        }
+
+    </script>
+</body>
+</html>

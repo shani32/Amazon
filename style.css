@@ -95,8 +95,6 @@ line-height: 1.6;
 }
 
  .search3{
-   
- /* background-color: ; */
   /* width: 50px;
  height: 40px; */
   background:orange url('./images/search.png') no-repeat -196px -38px;
@@ -204,7 +202,6 @@ height: 28px;
   }
 
    a{
-      /* color: white; */
       text-decoration: none;
       padding: 0px 8px;
      
@@ -226,7 +223,6 @@ height: 28px;
 
 .nav-bar a{
     color:white;
-    /* opacity: 0.7; */
     font-size: 14px;
     padding: 5px 10px;
     border: 1px solid transparent;
@@ -294,7 +290,7 @@ text-align: center;
     width: 97%;
     height: 170vh;
     margin: 40px 50px;
-    /* border: black 1px solid; */
+ 
     
 }
 .main-grid{
@@ -333,13 +329,8 @@ text-align: center;
     width: 200px;
 
     
-    /* width: 25%;
-    height: 100%; */
 }
 .left1 ul li:first-child{
-    /* border: 0.5px black solid; */
-    /* width: 200px; */
-    /* text-align: right; */
     position: relative;
 }
 .left1 ul li>img{
@@ -564,16 +555,12 @@ font-size: 12px;
     align-items: center;
     text-align: center;
     position: relative;
-    
-    
      
 }
-
 
 .crosella-mini1{
 width: 170px;
 height: 400px;
-/* border:1px solid palegoldenrod; */
 position: relative;
 margin-left: 180px;
 }
@@ -599,9 +586,7 @@ margin-left: 180px;
     top: 270px;
     left: 15px;
 }
-/* .main-star{
-    display: inline-block;
-} */
+
 .num1{
     position: absolute;
     top: 265px;
@@ -624,7 +609,6 @@ margin-left: 180px;
 .crosella-mini2{
     width: 170px;
     height: 400px;
-    /* border:1px solid palegoldenrod; */
     position: relative;
     margin-left: 110px;
     }
@@ -664,18 +648,17 @@ margin-left: 180px;
     .crosella-mini3{
         width: 170px;
         height: 400px;
-        /* border:1px solid palegoldenrod; */
         position: relative;
         margin-left: 110px;
         
         }
-        .crosella-text3{
+    .crosella-text3{
             position: absolute;
             left: 15px;
             top: 185px;
             
         }
-        .stars3{
+    .stars3{
             background: url('./images/search.png') no-repeat -175px -369px;
             width: 79px;
             height: 15px;
@@ -684,17 +667,17 @@ margin-left: 180px;
             left: 15px;
         }
         
-        .num3{
+    .num3{
             position: absolute;
             top: 265px;
             left: 110px;
         }
-        .crosella-price3{
+    .crosella-price3{
             position: absolute;
             bottom: 75px;
             left: 15px;
         }
-        .crosella-prime3{
+    .crosella-prime3{
             position: absolute;
             background: url('./images/prime.png') no-repeat -138px -73px;
             width: 42px;
@@ -703,21 +686,20 @@ margin-left: 180px;
             left: 75px;
         }
 
-        .crosella-mini4{
+    .crosella-mini4{
             width: 170px;
             height: 400px;
-            /* border:1px solid palegoldenrod; */
             position: relative;
             margin-left: 110px;
             
             }
-            .crosella-text4{
+    .crosella-text4{
                 position: absolute;
                 left: 15px;
                 top: 185px;
                 
             }
-            .stars4{
+    .stars4{
                 background: url('./images/search.png') no-repeat -175px -369px;
                 width: 79px;
                 height: 15px;
@@ -726,17 +708,17 @@ margin-left: 180px;
                 left: 15px;
             }
             
-            .num4{
+    .num4{
                 position: absolute;
                 top: 265px;
                 left: 110px;
             }
-            .crosella-price4{
+    .crosella-price4{
                 position: absolute;
                 bottom: 75px;
                 left: 15px;
             }
-            .crosella-prime4{
+    .crosella-prime4{
                 position: absolute;
                 background: url('./images/prime.png') no-repeat -138px -73px;
                 width: 42px;
@@ -744,86 +726,104 @@ margin-left: 180px;
                 bottom: 80px;
                 left: 75px;
             }
-            .crosella-mini5{
+    .crosella-mini5{
                 width: 170px;
                 height: 400px;
-                /* border:1px solid palegoldenrod; */
                 position: relative;
                 margin-left: 110px;
                 
                 }
-            .crosella-text5{
-                    position: absolute;
-                    left: 15px;
-                    top: 185px;
+    .crosella-text5{
+            position: absolute;
+            left: 15px;
+            top: 185px;
                     
                 }
-            .stars5{
-                    background: url('./images/search.png') no-repeat -175px -369px;
-                    width: 79px;
-                    height: 15px;
-                    position: absolute;
-                    top: 270px;
-                    left: 15px;
+    .stars5{
+            background: url('./images/search.png') no-repeat -175px -369px;
+            width: 79px;
+            height: 15px;
+            position: absolute;
+            top: 270px;
+            left: 15px;
                 }
                 
-            .num5{
-                    position: absolute;
-                    top: 265px;
-                    left: 110px;
+    .num5{
+             position: absolute;
+            top: 265px;
+            left: 110px;
                 }
-            .crosella-price5{
-                    position: absolute;
-                    bottom: 75px;
-                    left: 15px;
+    .crosella-price5{
+            position: absolute;
+            bottom: 75px;
+            left: 15px;
                 }
-            .crosella-prime5{
-                    position: absolute;
-                    background: url('./images/prime.png') no-repeat -138px -73px;
-                    width: 42px;
-                    height: 12px;
-                    bottom: 80px;
-                    left: 75px;
+    .crosella-prime5{
+            position: absolute;
+            background: url('./images/prime.png') no-repeat -138px -73px;
+            width: 42px;
+            height: 12px;
+            bottom: 80px;
+            left: 75px;
                 }
-            .crosella-mini6{
-                    width: 170px;
-                    height: 400px;
-                    /* border:1px solid palegoldenrod; */
-                    position: relative;
-                    margin-left: 110px;
+    .crosella-mini6{
+            width: 170px;
+            height: 400px;      
+            position: relative;
+            margin-left: 110px;
                     }
-                    .crosella-text6{
-                        position: absolute;
-                        left: 15px;
-                        top: 185px;
+    .crosella-text6{
+                position: absolute;
+                left: 15px;
+                top: 185px;
                         
                     }
-                .stars6{
-                        background: url('./images/search.png') no-repeat -175px -369px;
-                        width: 79px;
-                        height: 15px;
-                        position: absolute;
-                        top: 270px;
-                        left: 15px;
+    .stars6{
+        background: url('./images/search.png') no-repeat -175px -369px;
+        width: 79px;
+        height: 15px;
+        position: absolute;
+        top: 270px;
+        left: 15px;
                     }
                     
-                .num6{
-                        position: absolute;
-                        top: 265px;
-                        left: 110px;
+    .num6{
+        position: absolute;
+        top: 265px;
+        left: 110px;
                     }
-                .crosella-price6{
-                        position: absolute;
-                        bottom: 75px;
-                        left: 15px;
+    .crosella-price6{
+        position: absolute;
+        bottom: 75px;
+        left: 15px;
                     }
-                .crosella-prime6{
-                        position: absolute;
-                        background: url('./images/prime.png') no-repeat -138px -73px;
-                        width: 42px;
-                        height: 12px;
-                        bottom: 80px;
-                        left: 75px;
-                    }
+    .crosella-prime6{
+        position: absolute;
+        background: url('./images/prime.png') no-repeat -138px -73px;
+        width: 42px;
+        height: 12px;
+        bottom: 80px;
+        left: 75px;
+                    }                
         
-    
+        .carosel-action{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        top: 50%;
+        transform: translateY(-50%);
+        position: absolute;
+                        
+         }
+        .carosel-action button{
+            border-radius: 50px;
+            border: 0;
+            font-weight: bold;
+            width: 40px;
+            height: 40px;
+         }
+         .carosel-action button:hover{
+             cursor: pointer;
+         }
+                   
+                   
